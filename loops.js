@@ -13,10 +13,8 @@ function whileLoop(n) {
   while (n >= 0) {
   console.log(n);
   n--;
-  if (n === 0) {
-    console.log('done');
   }
-  }
+  return 'done';
 }
 
 function doWhileLoop(array) {
